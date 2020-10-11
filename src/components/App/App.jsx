@@ -15,6 +15,8 @@ function App() {
         <BrowserRouter>
           <Header />
           <Route exact path="/" component={CoinSummaryPage} />
+
+          <Route exact path="/coindetail" component={CoinDetailPage} />
         </BrowserRouter>
       </WatchListContextProvider>
     </div>
